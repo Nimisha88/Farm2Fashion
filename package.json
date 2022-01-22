@@ -1,0 +1,22 @@
+{
+  "name": "farm2fashion",
+  "version": "1.0.0",
+  "description": "A DApp Supply Chain solution backed by the Ethereum platform.",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nimisha88/Farm2Fashion.git"
+  },
+  "author": "Nimisha Viraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nimisha88/Farm2Fashion/issues"
+  },
+  "homepage": "https://github.com/Nimisha88/Farm2Fashion#readme",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.1",
+    "fs": "^0.0.1-security"
+  }
+}

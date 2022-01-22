@@ -1,0 +1,12 @@
+# Node Modules
+node_modules
+app/node_modules
+
+# Build Files
+build
+
+# Extra Files
+extras
+
+# Mnemonic (the twelve word phrase) file for TestNet migration
+.secret
