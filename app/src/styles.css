@@ -1,0 +1,107 @@
+/* Color Palette */
+/* #99e6fb, #63dbfb, #ffd15b, #ffc344, #aee194, #69ca43, #efe1dd, #e1d2ce */
+
+:root {
+  --lightBlue: #99e6fb;
+  --darkBlue: #63dbfb;
+  --lightYellowOpaque: #ffd15b77;
+  --lightYellowOpaqueDark: #ffd15bcc;
+  --lightYellow: #ffd15b;
+  --dirtyWhite: #efe1dd;
+  --opaqueBlack: #000000aa;
+  --linen: linen;
+  --sideMargin: 3rem;
+  --topBottomMargin: 2rem
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--linen);
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  margin: 0;
+  color: var(--opaqueBlack);
+  text-align: right;
+  font-size: 3rem;
+  font-family: "Sacramento", cursive;
+}
+
+h2, h3, h4, h5, h6 {
+  color: var(--opaqueBlack);
+  font-family: "Lobster", cursive;
+}
+
+.nav {
+  margin-top: var(--topBottomMargin);
+  position: relative;
+}
+
+.nav > img {
+  width: 6rem;
+  position: absolute;
+  top: -1rem;
+  left: var(--sideMargin);
+  background-color: var(--opaqueBlack);
+  border-radius: 50%;
+  box-shadow: 3px 3px 5px var(--lightYellowOpaque);
+}
+
+.menu {
+  height: 4rem;
+  padding-right: var(--sideMargin);
+  border-radius: 0.75rem;
+  background: linear-gradient(var(--lightYellowOpaque), var(--lightYellow), var(--lightYellowOpaque));
+  /* border: 1px solid red; */
+}
+
+/* .tilt {
+  padding: 0 0.5rem;
+  display: inline-block;
+  transform: rotate(-10deg);
+} */
+
+.hero {
+  flex: 1 0 auto;
+  margin: var(--topBottomMargin) var(--sideMargin);
+  display: grid;
+  grid-gap: 5%;
+  grid-template-columns: auto auto;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  /* border: 1px solid red; */
+}
+
+.hero div {
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: var(--linen);
+  box-shadow: 3px 3px 10px var(--lightYellowOpaqueDark);
+}
+
+.hero div:hover {
+  transform: scale(1.05);
+  box-shadow: 3px 3px 20px var(--lightYellow);
+}
+
+.menu-icon {
+  width: 10rem;
+}
+
+.footer {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(var(--lightYellowOpaque), var(--lightYellow), var(--lightYellowOpaque));
+  border-radius: 0.5rem;
+  /* margin-bottom: var(--topBottomMargin); */
+}
